@@ -15,19 +15,22 @@ clear
 % figure
 % step(G1)
 
-% G(2)
-% num=[3,8];
-% den=[1 0 9];
-% G2 = tf(num, den)
-% 
-% pole(G2)
-% zero(G2)
-% 
-% figure
-% pzmap(G2)
-% 
-% figure
-% step(G2)
+% G2
+tf
+num=[3 8];
+den=[1 0 9];
+G2 = tf(num, den)
+
+pole(G2)
+zero(G2)
+
+figure
+pzmap(G2)
+
+figure
+ftime = 10
+step(G2, 10)
+
 
 
 % G(3)
@@ -46,15 +49,16 @@ clear
 
 
 % G(4)
-% num=[3,8];
-% den=[1 -6 8];
-% G4 = tf(num, den)
- 
-% pole(G4)
-% zero(G4)
- 
-% figure
-% pzmap(G4)
- 
-% figure
-% step(G4)
+tf
+num=[3 8];
+den=[1 -6 8];
+G4 = tf(num, den)
+
+pole(G4)
+zero(G4)
+
+figure
+pzmap(G4)
+
+figure
+step(G4)

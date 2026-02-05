@@ -1,5 +1,6 @@
 clear
-% (1) Please use MATLAB to determine the poles, the zeros, the pole/zero map, and the step response curve of each system
+
+% (Number 1) Please use MATLAB to determine the poles, the zeros, the pole/zero map, and the step response curve of each system
 
 % G(1)
 % num=[3,8];
@@ -57,4 +58,5 @@ clear
 % pzmap(G4)
  
 % figure
+
 % step(G4)
